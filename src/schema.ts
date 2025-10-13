@@ -1,6 +1,6 @@
+import { kinds } from "+contents/project-kinds";
 import { type ImageFunction, reference } from "astro:content";
 import { z } from "astro:schema";
-import { kinds } from "+contents/project-kinds";
 import { TZDate } from "@date-fns/tz";
 
 export type Article = z.infer<ReturnType<typeof CreateArticleSchema>>;

@@ -1,10 +1,10 @@
 ---
-import { Picture } from "astro:assets";
-import { render } from "astro:content";
 import JoinUsCTA from "+/components/common/JoinUsCTA.astro";
 import GlobalLayout from "+/layouts/GlobalLayout.astro";
 import { getArticles, getMember } from "+/query.ts";
 import { Focus } from "+/schema.ts";
+import { Picture } from "astro:assets";
+import { render } from "astro:content";
 import { format } from "date-fns";
 
 export async function getStaticPaths() {

@@ -23,7 +23,7 @@ export async function cache<T>(
   } = {},
 ): Promise<T> {
   const ttl = options.ttl ?? DEFAULT_TTL;
-  const now = new Date().getTime() / 1000;
+  const now = Date.now() / 1000;
   const path = await toPath(sanitizeKey(key));
 
   // cache load
@@ -80,7 +80,7 @@ async function exists(path: string) {
   try {
     await fs.stat(path);
     return true;
-  } catch (err) {
+  } catch (_err) {
     return false;
   }
 }

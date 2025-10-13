@@ -1,6 +1,6 @@
 ---
-import { Picture } from "astro:assets";
 import type { Article } from "+/schema";
+import { Picture } from "astro:assets";
 import { format } from "date-fns";
 import { markdownToTxt } from "markdown-to-txt";
 
@@ -22,7 +22,7 @@ const {
 } = props;
 
 const maxCols =
-  typeof _maxCols === "string" ? Number.parseInt(_maxCols) : _maxCols;
+  typeof _maxCols === "string" ? Number.parseInt(_maxCols, 10) : _maxCols;
 
 const MDXSpecialSyntax = /^import ActionButton from ".+";/;
 

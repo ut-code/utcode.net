@@ -1,12 +1,12 @@
 ---
-import { Picture } from "astro:assets";
-import { render } from "astro:content";
 import JoinUsCTA from "+/components/common/JoinUsCTA.astro";
 import ActionButton from "+/components/utils/ActionButton.astro";
 import GlobalLayout from "+/layouts/GlobalLayout.astro";
 import { fetchFavicon } from "+/lib/fetch-favicon";
 import { getProjects } from "+/query";
 import { Focus } from "+/schema.ts";
+import { Picture } from "astro:assets";
+import { render } from "astro:content";
 import type { GetStaticPaths } from "astro";
 import { Icon } from "astro-icon/components";
 
@@ -20,7 +20,7 @@ export const getStaticPaths = (async () => {
 const { project } = Astro.props;
 const { Content } = await render(project);
 
-let iconSrc: string | undefined = undefined;
+let iconSrc: string | undefined;
 if (project.data.status !== "dead") {
   if (project.data.favicon) iconSrc = project.data.favicon.src;
   if (!iconSrc && project.data.app.url) {

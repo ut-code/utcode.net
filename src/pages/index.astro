@@ -1,20 +1,17 @@
 ---
-import { Picture } from "astro:assets";
-import { Icon } from "astro-icon/components";
-
-import GlobalLayout from "+/layouts/GlobalLayout.astro";
-
 import ArticleList from "+/components/common/ArticleList.astro";
 import ProjectList from "+/components/common/ProjectList.astro";
 import SectionHeader from "+/components/index/SectionHeader.astro";
 import ActionButton from "+/components/utils/ActionButton.astro";
-import { getArticles, getProjects } from "+/query.ts";
-import { Focus } from "+/schema.ts";
-
 import LogoGMOMedia from "+/images/donators/gmo-media.png";
 import LogoRIZAPTechnologies from "+/images/donators/rizap-technologies.png";
 import Hero from "+/images/headers/index.jpg";
 import LabCafe from "+/images/lab-cafe.jpg";
+import GlobalLayout from "+/layouts/GlobalLayout.astro";
+import { getArticles, getProjects } from "+/query.ts";
+import { Focus } from "+/schema.ts";
+import { Picture } from "astro:assets";
+import { Icon } from "astro-icon/components";
 
 const projects = await getProjects("long-term");
 projects.splice(6);

@@ -1,11 +1,11 @@
 ---
-import { Picture } from "astro:assets";
-import { render } from "astro:content";
 import ArticleList from "+/components/common/ArticleList.astro";
 import JoinUsCTA from "+/components/common/JoinUsCTA.astro";
 import GlobalLayout from "+/layouts/GlobalLayout.astro";
 import { getArticles, getMembers } from "+/query";
 import { Focus } from "+/schema";
+import { Picture } from "astro:assets";
+import { render } from "astro:content";
 import { Icon } from "astro-icon/components";
 
 export async function getStaticPaths() {

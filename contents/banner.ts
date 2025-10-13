@@ -1,4 +1,5 @@
 import type { Banner } from "+/schema.ts";
+
 const banner: Banner = {
   shown: false,
   kind: "notify",
