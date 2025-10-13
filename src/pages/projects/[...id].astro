@@ -20,7 +20,7 @@ export const getStaticPaths = (async () => {
 const { project } = Astro.props;
 const { Content } = await render(project);
 
-let iconSrc: string | undefined ;
+let iconSrc: string | undefined;
 if (project.data.status !== "dead") {
   if (project.data.favicon) iconSrc = project.data.favicon.src;
   if (!iconSrc && project.data.app.url) {

@@ -22,7 +22,7 @@ const {
 } = props;
 
 const maxCols =
-  typeof _maxCols === "string" ? Number.parseInt(_maxCols) : _maxCols;
+  typeof _maxCols === "string" ? Number.parseInt(_maxCols, 10) : _maxCols;
 
 const MDXSpecialSyntax = /^import ActionButton from ".+";/;
 

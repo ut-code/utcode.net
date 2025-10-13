@@ -16,18 +16,13 @@
 - HEIC は対応していないので、 ImageMagick で他のフォーマットに変換してください。
   - 例: `magick picture.HEIC picture.webp`
 - すべての画像ファイルは 1 MB 未満に抑えてください。既存のものを変更したり、 CI でチェックしたりはまだ実装してないです。
-
   - ffmpeg や ImageMagick を使い、解像度を下げたり、画質 (Quality) を下げたり、WebP (or AVIF) に変換するなどができます。
-
     - 例:
-
       - `mogrify -resize 800x -quality 80 -format webp input.png`
-
         - ImageMagick についてきます。
         - コマンドの引数は見ての通り。
 
       - `ffmpeg -i ./input.png -vf 'scale=1920:-1' -crf 10 output.avif`
-
         - -> 50〜300kb 程度になります。AVIF の場合、多少 (数秒〜1分程度) 時間がかかります。
         - `-vf scale={width}:{height}`: 画像の横幅。height が -1 のときは、横幅から計算する。
         - `-crf`: 画像の圧縮率。大きいほうが圧縮率が高い。
@@ -42,7 +37,6 @@
 ### 記事
 
 - サムネイルは縦横比 3:5 にクロップされます。
-
   - 可能なら 3:5 に近い画像を使い、
   - できないかつクロップが許容できない場合は、 `thumbnail.fit: contain` と背景色 (`thumbnail.bg`) を指定してください。
 
