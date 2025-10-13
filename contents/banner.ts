@@ -1,6 +1,6 @@
 import type { Banner } from "+/schema.ts";
 const banner: Banner = {
-  shown: true,
+  shown: false,
   kind: "notify",
   long: "夏新歓を行っています",
   short: "夏新歓を行っています",

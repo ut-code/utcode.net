@@ -6,7 +6,8 @@ import StaticDocumentWrapper from "+/layouts/StaticDocumentWrapper.astro";
 import { Focus } from "+/schema";
 import { Icon } from "astro-icon/components";
 
-const shinkanJiki = false;
+const shinkanEvents = false;
+const joinLink = false;
 ---
 
 <GlobalLayout
@@ -21,7 +22,7 @@ const shinkanJiki = false;
     title="ut.code(); に参加する"
   >
     {
-      shinkanJiki && (
+      shinkanEvents && (
         <p
           role="alert"
           class="alert not-prose alert-vertical alert-info alert-outline sm:alert-horizontal border-2 sm:flex-row"
@@ -46,13 +47,21 @@ const shinkanJiki = false;
     <p>
       <a href="/welcome-events-2025-summer">夏新歓の詳細はこちら</a><br />
     </p>
-    <p>
-      ut.code(); に興味のある方は、以下のリンクから Discord
-      に参加してみてください。
-    </p>
-    <p>
-      <a href="https://discord.gg/q3w3gfZfjy">Discord 参加リンクはこちら</a>
-    </p>
+    {
+      joinLink && (
+        <>
+          <p>
+            ut.code(); に興味のある方は、以下のリンクから Discord
+            に参加してみてください。
+          </p>
+          <p>
+            <a href="https://discord.gg/q3w3gfZfjy">
+              Discord 参加リンクはこちら
+            </a>
+          </p>
+        </>
+      )
+    }
     <ul>
       <li>
         要件: ut.code();
@@ -68,7 +77,7 @@ const shinkanJiki = false;
       で行っています。新歓期は自由に参加可能ですので、興味がある場合はぜひ気軽に参加してみてください。
     </p>
     {
-      shinkanJiki && (
+      shinkanEvents && (
         <>
           <h2>📅 新歓日程</h2>
           <p>新歓の日程は、こちらから確認できます。</p>
