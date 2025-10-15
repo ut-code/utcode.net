@@ -3,7 +3,7 @@ title: 2025 年度夏合宿を開催しました
 date: 2025-09-17
 thumbnail:
   src: ./thumbnail.avif
-author: "2025/keiichiro-shibayama"
+author: "2024/keiichiro-shibayama"
 ---
 
 ut.code(); では 9 月 17 日から 19 日まで、東京大学山中寮内藤セミナーハウスにて春合宿を実施しました。
