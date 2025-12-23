@@ -4,7 +4,7 @@ nameEn: Shuya Tsukahara
 joinYear: 2025
 description: 学食=うどん
 upperBodyImage: ./shuya-tsukahara.webp
-faceImage: ./shuya-tsukahara.jp
+faceImage: ./shuya-tsukahara.webp
 ---
 
 ut.code()での活動を通して、プログラミングの知識を蓄え、経験を積んでいきたいと思っています。よろしくお願いします。
