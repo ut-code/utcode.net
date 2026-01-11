@@ -4,7 +4,7 @@ date: 2025-12-21
 categories:
   - events
 thumbnail:
-  src: ./thumbnail.png
+  src: ./thumbnail.avif
   position: top
 author: 2024/takuya-yasumura
 ---
@@ -30,8 +30,8 @@ ut.code(); では多くのプロダクトが TypeScript で作られるため、
 実用的な cron スケジューラーや、日常的に使えるツール、ターミナル上で動作するゲームなど、多様なプロダクトが発表されました。
 Rust で CLI ツールを作成した意欲的な参加者が多かったです。
 
-![ハッカソン発表会の様子1](./presentation-1.jpg)
+![ハッカソン発表会の様子1](./presentation-1.avif)
 
-![ハッカソン発表会の様子2](./presentation-2.jpg)
+![ハッカソン発表会の様子2](./presentation-2.avif)
 
 ut.code(); では今後も同様のハッカソンを開催していく予定です。
