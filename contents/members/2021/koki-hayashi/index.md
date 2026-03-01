@@ -3,8 +3,6 @@ nameJa: 林 洸希
 nameEn: Koki Hayashi
 joinYear: 2019
 description: TypeScriptを使ったWebアプリケーション開発をしています。
-faceImage: ./face.jpg
-upperBodyImage: ./upper-body.jpg
 github: kokhayas
 ---
 
