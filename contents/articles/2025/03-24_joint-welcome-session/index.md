@@ -10,6 +10,11 @@ thumbnail:
   bg: "#A5FFD3"
 ---
 
+<div class="bg-amber-50 border-l-4 border-amber-400 p-3 mb-6 rounded">
+  <strong>⚠️ 注意</strong><br/>
+  この記事は 2025 年度のものです。2026 年度の合同新歓は準備中です。（2026/03/16 追記）
+</div>
+
 ## 📌 イベント概要
 
 ### 📅 開催日時
