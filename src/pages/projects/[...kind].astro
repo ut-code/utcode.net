@@ -28,10 +28,6 @@ const projects = await getProjects(kind.frontmatter);
     <div role="tablist" class="tabs tabs-lift">
       {
         kinds
-          .filter(
-            (kind) =>
-              kind.path !== "festival" /* TODO: migrate festival projects */,
-          )
           .map((tab) => (
             <a>
               <a
