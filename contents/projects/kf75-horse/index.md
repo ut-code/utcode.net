@@ -1,8 +1,8 @@
 ---
 app:
-  name: 競馬AI (KF75)
+  name: "競馬AI (KF75)"
   url: https://keiba.utcode.net/
-  description: 競馬をAIで予測しようというのがこのプロジェクトが発足した理由です。このサイトではそのAIと対戦をしたり、AIの学習に使われたデータについて閲覧することが出来ます。
+  description: "競馬をAIで予測しようというのがこのプロジェクトが発足した理由です。このサイトではそのAIと対戦をしたり、AIの学習に使われたデータについて閲覧することが出来ます。"
   platform: [web]
   domain: [game]
 

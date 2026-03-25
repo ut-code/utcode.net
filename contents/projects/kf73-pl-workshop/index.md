@@ -1,8 +1,8 @@
 ---
 app:
-  name: pl-workshop (KF73)
+  name: "pl-workshop (KF73)"
   url: https://pl-workshop.github.io/pl-workshop-text/
-  description: JavaScriptのライブラリ、PEG.jsを使って四則演算や変数、条件分岐、関数が使える簡単なプログラミング言語を作ってみましょう！
+  description: "JavaScriptのライブラリ、PEG.jsを使って四則演算や変数、条件分岐、関数が使える簡単なプログラミング言語を作ってみましょう！"
   platform: [web]
   domain: [learn]
 

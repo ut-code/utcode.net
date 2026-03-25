@@ -1,8 +1,8 @@
 ---
 app:
-  name: AIとオセロ (KF76)
+  name: "AIとオセロ (KF76)"
   url: https://boardgame.utcode.net/
-  description: 6 × 6マスのちょっと小さいオセロで、AIと対戦してみましょう！勝つのはちょっと難しいかも！？
+  description: "6 × 6マスのちょっと小さいオセロで、AIと対戦してみましょう！勝つのはちょっと難しいかも！？"
   platform: [web]
   domain: [game]
 

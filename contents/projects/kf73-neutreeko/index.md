@@ -1,8 +1,8 @@
 ---
 app:
-  name: 強化学習AIと『ニュートリーコ』で対戦！
+  name: "強化学習AIと『ニュートリーコ』で対戦！"
   url: https://neutreeko.herokuapp.com/
-  description: 『ニュートリーコ』は三目並べを面白くしたボードゲームです。AIに挑戦してみてください。
+  description: "『ニュートリーコ』は三目並べを面白くしたボードゲームです。AIに挑戦してみてください。"
   platform: [web]
   domain: [game]
 

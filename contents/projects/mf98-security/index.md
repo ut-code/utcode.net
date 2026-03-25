@@ -1,8 +1,8 @@
 ---
 app:
-  name: ハッカーになろう (MF98)
+  name: "ハッカーになろう (MF98)"
   url: https://security.utcode.net/
-  description: 悪用厳禁！Web サービスを攻撃して、隠された秘密のデータを盗み出そう！
+  description: "悪用厳禁！Web サービスを攻撃して、隠された秘密のデータを盗み出そう！"
   platform: [web]
   domain: [learn]
 

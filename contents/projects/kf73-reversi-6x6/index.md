@@ -1,8 +1,8 @@
 ---
 app:
-  name: 強化学習AIと『6x6リバーシ』で対戦！
+  name: "強化学習AIと『6x6リバーシ』で対戦！"
   url: https://reversi-6x6.herokuapp.com/
-  description: 強化学習を使って、『6x6リバーシ』（いわゆる「オセロ」の小さい版）のゲームAIも作ってみました。
+  description: "強化学習を使って、『6x6リバーシ』（いわゆる「オセロ」の小さい版）のゲームAIも作ってみました。"
   platform: [web]
   domain: [game]
 

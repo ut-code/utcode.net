@@ -1,7 +1,7 @@
 ---
 app:
-  name: First Web Game Maker
-  description: First Web Game Maker は、ボタンを押すだけでプログラミング言語を記述し、ウェブ上で動くゲームを制作できるツールです。
+  name: "First Web Game Maker"
+  description: "First Web Game Maker は、ボタンを押すだけでプログラミング言語を記述し、ウェブ上で動くゲームを制作できるツールです。"
   platform: [web]
   domain: [tool]
 

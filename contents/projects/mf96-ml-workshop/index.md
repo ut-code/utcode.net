@@ -1,8 +1,8 @@
 ---
 app:
-  name: ML Workshop
+  name: "ML Workshop"
   url: https://festival.utcode.net/kmeans
-  description: 「はじめてのプログラミング教室」に ML (Machine Learning: 機械学習) 編が登場！プログラミング言語は用いず、マウスでブロックを組み合わせていくだけで機械学習のアルゴリズムを実装することができます。
+  description: "「はじめてのプログラミング教室」に ML (Machine Learning: 機械学習) 編が登場！プログラミング言語は用いず、マウスでブロックを組み合わせていくだけで機械学習のアルゴリズムを実装することができます。"
   platform: [web]
   domain: [learn]
 

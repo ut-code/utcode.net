@@ -1,8 +1,8 @@
 ---
 app:
-  name: タイピングゲーム (KF74)
+  name: "タイピングゲーム (KF74)"
   url: https://typing.utcode.net/
-  description: タイピングゲームで、一位を目指そう！他の人と競い合いながら、タイピングの練習をすることができます。
+  description: "タイピングゲームで、一位を目指そう！他の人と競い合いながら、タイピングの練習をすることができます。"
   platform: [web]
   domain: [game]
 

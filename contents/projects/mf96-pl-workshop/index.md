@@ -1,8 +1,8 @@
 ---
 app:
-  name: PL Workshop (MF96)
+  name: "PL Workshop (MF96)"
   url: https://pl-workshop.github.io/pl-workshop-text/
-  description: プログラミングをやったことがある人でも、プログラミング言語を作ったことがある人は少ないのではないでしょうか？JavaScript のライブラリ、PEG.js を使って簡単なプログラミング言語を作ってみましょう！
+  description: "プログラミングをやったことがある人でも、プログラミング言語を作ったことがある人は少ないのではないでしょうか？JavaScript のライブラリ、PEG.js を使って簡単なプログラミング言語を作ってみましょう！"
   platform: [web]
   domain: [learn]
 

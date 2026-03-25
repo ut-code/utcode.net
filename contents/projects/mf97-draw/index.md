@@ -1,8 +1,8 @@
 ---
 app:
-  name: CodeYourArt
+  name: "CodeYourArt"
   url: https://utcode-draw.onrender.com/
-  description: あなただけのアート作品を「プログラム」しよう！ブロックプログラミングで絵を描きながら、直感的にプログラムの基本構造に触れることができます。
+  description: "あなただけのアート作品を「プログラム」しよう！ブロックプログラミングで絵を描きながら、直感的にプログラムの基本構造に触れることができます。"
   platform: [web]
   domain: [game]
 

@@ -1,8 +1,8 @@
 ---
 app:
-  name: Falling Nikochan
+  name: "Falling Nikochan"
   url: https://nikochan.utcode.net/?fes=mf98
-  description: シンプルでかわいいリズムゲーム (音ゲー) です。 PC だけでなくタブレットやスマートフォンなどでも手軽に遊べます。
+  description: "シンプルでかわいいリズムゲーム (音ゲー) です。 PC だけでなくタブレットやスマートフォンなどでも手軽に遊べます。"
   platform: [web]
   domain: [game]
 

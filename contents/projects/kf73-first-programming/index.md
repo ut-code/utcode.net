@@ -1,8 +1,8 @@
 ---
 app:
-  name: はじめてのプログラミング教室
+  name: "はじめてのプログラミング教室"
   url: https://festival.utcode.net
-  description: 誰でも簡単にプログラミングに触れることができる、ut.code(); 自慢のコンテンツです。
+  description: "誰でも簡単にプログラミングに触れることができる、ut.code(); 自慢のコンテンツです。"
   platform: [web]
   domain: [learn]
 

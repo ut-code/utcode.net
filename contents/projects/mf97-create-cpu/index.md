@@ -1,7 +1,7 @@
 ---
 app:
-  name: CreateCPU (MF97)
-  description: 足し算を行う論理回路を作りながら、CPU の仕組みを学んでいきましょう。
+  name: "CreateCPU (MF97)"
+  description: "足し算を行う論理回路を作りながら、CPU の仕組みを学んでいきましょう。"
   platform: [web]
   domain: [learn]
 

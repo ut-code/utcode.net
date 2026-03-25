@@ -1,8 +1,8 @@
 ---
 app:
-  name: Code vs Code (MF96)
+  name: "Code vs Code (MF96)"
   url: https://code-vs-code.utcode.net/
-  description: ブロックをならべて、つなげて、自分だけのパイロットAIをプログラムしよう！
+  description: "ブロックをならべて、つなげて、自分だけのパイロットAIをプログラムしよう！"
   platform: [web]
   domain: [game]
 

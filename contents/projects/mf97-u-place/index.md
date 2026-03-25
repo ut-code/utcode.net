@@ -1,8 +1,8 @@
 ---
 app:
-  name: u/place
+  name: "u/place"
   url: https://u-place.onrender.com/
-  description: 大きなキャンバスに絵を描きましょう！やり方は簡単。セルを塗り潰すだけ！
+  description: "大きなキャンバスに絵を描きましょう！やり方は簡単。セルを塗り潰すだけ！"
   platform: [web]
   domain: [game]
 

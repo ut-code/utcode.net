@@ -1,8 +1,8 @@
 ---
 app:
-  name: QRコードを体験してみよう！
+  name: "QRコードを体験してみよう！"
   url: https://ut-code.github.io/qrcode/
-  description: 生活のあらゆる場面で見かけるQRコード。その仕組みを学びながら、自分の手でQRコードを作成しましょう！
+  description: "生活のあらゆる場面で見かけるQRコード。その仕組みを学びながら、自分の手でQRコードを作成しましょう！"
   platform: [web]
   domain: [learn]
 

@@ -1,8 +1,8 @@
 ---
 app:
-  name: Life Code
+  name: "Life Code"
   url: https://life-code.utcode.net/
-  description: Life Codeは、自分でルールを変えながら遊べるライフゲームです。コードを書きかえるとマスの中の「いのち」の動きが変わります。
+  description: "Life Codeは、自分でルールを変えながら遊べるライフゲームです。コードを書きかえるとマスの中の「いのち」の動きが変わります。"
   platform: [web]
   domain: [game]
 

@@ -1,8 +1,8 @@
 ---
 app:
-  name: はじめてのプログラミング教室 (MF97)
+  name: "はじめてのプログラミング教室 (MF97)"
   url: https://festival.utcode.net/
-  description: 「はじめてのプログラミング教室」は ut.code(); がこれまでの学園祭でも提供してきた、自慢のコンテンツです。
+  description: "「はじめてのプログラミング教室」は ut.code(); がこれまでの学園祭でも提供してきた、自慢のコンテンツです。"
   platform: [web]
   domain: [learn]
 

@@ -1,8 +1,8 @@
 ---
 app:
-  name: AIとオセロ (KF75)
+  name: "AIとオセロ (KF75)"
   url: https://othello.utcode.net/
-  description: 6 × 6マスのちょっと小さいオセロで、AIと対戦してみましょう！勝つのはちょっと難しいかも！？
+  description: "6 × 6マスのちょっと小さいオセロで、AIと対戦してみましょう！勝つのはちょっと難しいかも！？"
   platform: [web]
   domain: [game]
 

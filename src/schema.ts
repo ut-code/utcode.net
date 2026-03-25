@@ -73,7 +73,7 @@ export const CreateProjectSchema = ({ image }: { image: ImageFunction }) =>
     ]),
     order: z.number().optional(),
     date: z.date(),
-    thumbnail: Thumbnail({ image }),
+    thumbnail: Thumbnail({ image }).optional(),
     favicon: image().optional(),
     tags: z.array(z.string()).optional().default([]),
     social: z

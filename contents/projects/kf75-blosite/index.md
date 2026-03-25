@@ -1,8 +1,8 @@
 ---
 app:
-  name: Blosite (KF75)
+  name: "Blosite (KF75)"
   url: https://blosite.utcode.net
-  description: ブロックプログラミングで自分だけのウェブサイトを作りましょう！豊富なチュートリアルがあるので、プログラミングが初めての方でも楽しめます。
+  description: "ブロックプログラミングで自分だけのウェブサイトを作りましょう！豊富なチュートリアルがあるので、プログラミングが初めての方でも楽しめます。"
   platform: [web]
   domain: [tool]
 

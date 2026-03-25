@@ -1,8 +1,8 @@
 ---
 app:
-  name: cobuilder
+  name: "cobuilder"
   url: https://cobuilder.pages.dev/
-  description: cobuilder 空間では、参加者全員で空間を作り上げます。草木を生み出し、豪邸を立て、地形すら変えて現実世界ではありえない理想の世界を作り上げます。
+  description: "cobuilder 空間では、参加者全員で空間を作り上げます。草木を生み出し、豪邸を立て、地形すら変えて現実世界ではありえない理想の世界を作り上げます。"
   platform: [web]
   domain: [game]
 

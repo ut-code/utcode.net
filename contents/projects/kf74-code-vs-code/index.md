@@ -1,8 +1,8 @@
 ---
 app:
-  name: Code vs Code (KF74)
+  name: "Code vs Code (KF74)"
   url: https://code-vs-code.utcode.net/
-  description: ブロックをならべて、つなげて、自分だけのパイロット AI をプログラムしよう！
+  description: "ブロックをならべて、つなげて、自分だけのパイロット AI をプログラムしよう！"
   platform: [web]
   domain: [game]
 

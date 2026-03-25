@@ -21,6 +21,7 @@ const { projects, variant = "full" } = props;
           class="overflow-clip rounded-xl border border-gray-200 bg-gray-50 hover:brightness-95"
           href={`/projects/${project.id}`}
         >
+          {project.data.thumbnail ?
           <Picture
             loading={i < 6 && variant === "full" ? "eager" : "lazy"}
             alt={`${project.data.app.name}のサムネイル`}
@@ -37,6 +38,9 @@ const { projects, variant = "full" } = props;
               "background-color": project.data.thumbnail.bg,
             }}
           />
+          :
+          <div class="aspect-5/3 w-full skeleton" />
+          }
           <div class="p-4">
             <h3 class="text-xl font-bold text-gray-800">
               {project.data.app.name}

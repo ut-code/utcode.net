@@ -1,8 +1,8 @@
 ---
 app:
-  name: 8番ページ
+  name: "8番ページ"
   url: https://page8.utcode.net
-  description: 『8番ページ』は、あなたを奇妙なループに閉じ込める、“Web上の 8 番出口”をモチーフにしたゲームです。
+  description: "『8番ページ』は、あなたを奇妙なループに閉じ込める、“Web上の 8 番出口”をモチーフにしたゲームです。"
   platform: [web]
   domain: [game]
 

@@ -1,8 +1,8 @@
 ---
 app:
-  name: タイピングゲーム (KF73)
+  name: "タイピングゲーム (KF73)"
   url: https://typing-game.onrender.com/
-  description: タイピングは、プログラマーはもちろん、多くの大学生にとって必須のスキルです。
+  description: "タイピングは、プログラマーはもちろん、多くの大学生にとって必須のスキルです。"
   platform: [web]
   domain: [game]
 
