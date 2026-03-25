@@ -1,0 +1,16 @@
+---
+app:
+  name: Code vs Code (MF96)
+  url: https://code-vs-code.utcode.net/
+  description: ブロックをならべて、つなげて、自分だけのパイロットAIをプログラムしよう！
+  platform: [web]
+  domain: [game]
+
+kind: festival
+status: finished
+date: 2023-05-13
+---
+
+ブロックをならべて、つなげて、自分だけのパイロットAIをプログラムしよう！
+作ったプログラムで、企画に参加してくださった他の皆さんと対戦できます。
+最強AIの座を手にするのは一体誰だ！？
