@@ -1,6 +1,7 @@
 ---
 app:
-  name: "ハッカーになろう (KF74)"
+  name: "ハッカーになろう"
+  url: https://kf74.utcode.net/security
   description: |
     悪用厳禁！Web サービスを攻撃して、隠された秘密のデータを盗み出そう！
     実際に使われたことのあるサイバー攻撃手法を習得して、あなたもついにハッカーデビュー！？
@@ -11,4 +12,6 @@ app:
 kind: festival
 status: finished
 date: 2023-11-24
+thumbnail:
+  src: ./thumbnail.png
 ---

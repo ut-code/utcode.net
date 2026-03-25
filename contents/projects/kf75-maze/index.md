@@ -1,6 +1,6 @@
 ---
 app:
-  name: "はじめてのプログラミング 迷路 (KF75)"
+  name: "はじめてのプログラミング 迷路"
   url: https://maze.utcode.net/
   description: |
     ut.code(); がこれまでの学園祭でも提供してきた、一番人気のコンテンツ！

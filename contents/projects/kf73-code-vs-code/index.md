@@ -1,6 +1,6 @@
 ---
 app:
-  name: "Code vs Code (KF73)"
+  name: "Code vs Code"
   url: https://code-vs-code.utcode.net/
   description: |
     ブロックをならべて、つなげて、自分だけのパイロットAIをプログラムしよう！

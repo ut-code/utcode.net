@@ -1,6 +1,7 @@
 ---
 app:
-  name: "CreateCPU (KF74)"
+  name: "CreateCPU"
+  url: https://kf74.utcode.net/create-cpu
   description: |
     皆さんの持つパソコンやスマートフォンは、私たちが手で計算するよりもずっと高速に計算を行うことができます。
     これは、私たちの脳に相当する CPU と呼ばれる部品が、計算を高速に行っているからです。

@@ -1,6 +1,6 @@
 ---
 app:
-  name: "ひとり麻雀 (KF75)"
+  name: "ひとり麻雀"
   url: https://mahjong.utcode.net/
   description: |
     麻雀はハマると抜け出せなくなるくらい面白いにもかかわらず、鳴きや点数計算、

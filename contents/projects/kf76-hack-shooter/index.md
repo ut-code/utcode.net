@@ -1,7 +1,7 @@
 ---
 app:
   name: "Hack-shooter"
-  url: https://github.com/ut-code/HackShooter/releases/tag/v1.2
+  url: https://github.com/ut-code/HackShooter/releases
   description: |
     シューティングゲームの裏側をプログラミングすることによって、より簡単に、よりスマートにゲームを攻略しよう！
   platform: [web]

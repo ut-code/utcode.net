@@ -1,6 +1,6 @@
 ---
 app:
-  name: "pl-workshop (KF73)"
+  name: "PL Workshop"
   url: https://pl-workshop.github.io/pl-workshop-text/
   description: |
     プログラミングをやったことがある人でも、プログラミング言語を使ったことがある人は少ないのではないでしょうか？
@@ -11,4 +11,6 @@ app:
 kind: festival
 status: finished
 date: 2022-11-21
+thumbnail:
+  src: ./thumbnail.jpg
 ---

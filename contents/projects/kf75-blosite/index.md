@@ -1,6 +1,6 @@
 ---
 app:
-  name: "Blosite (KF75)"
+  name: "Blosite"
   url: https://blosite.utcode.net
   description: |
     ブロックプログラミングで自分だけのウェブサイトを作りましょう！
