@@ -2,7 +2,8 @@
 app:
   name: "Shortcut Puzzle"
   url: https://shortcut-game.utcode.net/
-  description: "あなたは普段ショートカットキーを使ってますか？ショートカットを魔法のように操りましょう！2Dアクションパズルゲームの「Shortcut Puzzle」をぜひ遊んでみてください！"
+  description: |
+    あなたは普段ショートカットキーを使ってますか？いつも多用している方も初めて聞いた方も、ショートカットを魔法のように操りましょう！2Dアクションパズルゲームの「Shortcut Puzzle」をぜひ遊んでみてください！
   platform: [web]
   domain: [game]
 
@@ -14,4 +15,3 @@ thumbnail:
   src: ./thumbnail.png
 ---
 
-あなたは普段ショートカットキーを使ってますか？いつも多用している方も初めて聞いた方も、ショートカットを魔法のように操りましょう！2Dアクションパズルゲームの「Shortcut Puzzle」をぜひ遊んでみてください！
