@@ -15,7 +15,7 @@ thumbnail:
   src: ./thumbnail.png
 
 social:
-  website: https://th-beat.net/
+  twitter: https://x.com/touhou_beat
 ---
 
 ## 概要

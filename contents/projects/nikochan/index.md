@@ -17,6 +17,7 @@ thumbnail:
 social:
   github: https://github.com/na-trium-144/falling-nikochan
   youtube: https://www.youtube.com/@nikochan144
+  twitter: https://x.com/nikochan144
 ---
 
 ## 概要
