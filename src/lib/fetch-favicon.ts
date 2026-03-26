@@ -17,7 +17,7 @@ export async function fetchFavicon(
   const cacheKey = `fetch-favicon:${getDomain(siteBaseURL)}`;
 
   return await cache(cacheKey, z.string().optional(), async () => {
-    try{
+    try {
       const websiteRes = await fetch(siteBaseURL);
       if (!websiteRes.ok) {
         return undefined;
@@ -68,7 +68,7 @@ export async function fetchFavicon(
       }
 
       return undefined;
-    }catch{
+    } catch {
       return undefined;
     }
   });

@@ -22,16 +22,16 @@ const { Content } = await render(project);
 
 let iconSrc: string | undefined;
 if (project.data.status !== "dead") {
-  if(project.data.favicon === null) {
+  if (project.data.favicon === null) {
     iconSrc = undefined;
-  }else if (project.data.favicon){
+  } else if (project.data.favicon) {
     iconSrc = project.data.favicon.src;
   } else {
     if (!iconSrc && project.data.app.url) {
       iconSrc = await fetchFavicon(project.data.app.url);
     }
     if (!iconSrc && project.data.social?.website) {
-    iconSrc = await fetchFavicon(project.data.social.website);
+      iconSrc = await fetchFavicon(project.data.social.website);
     }
   }
 }
@@ -47,27 +47,29 @@ if (project.data.status !== "dead") {
     <div
       class="lg:mx-auto lg:flex lg:max-w-screen-lg lg:flex-row-reverse lg:items-center lg:gap-4 lg:px-4 lg:py-12"
     >
-      {project.data.thumbnail ?
-      <Picture
-        loading="eager"
-        formats={["avif", "webp"]}
-        class:list={[
-          "aspect-5/3 w-full object-cover lg:w-150 lg:rounded-2xl",
-          !project.data.thumbnail.bg && "skeleton",
-        ]}
-        alt="プロジェクト画像"
-        src={project.data.thumbnail.src}
-        position={project.data.thumbnail.position}
-        width="1000"
-        height="600"
-        style={{
-          "object-position": project.data.thumbnail.position,
-          "object-fit": project.data.thumbnail.fit,
-          "background-color": project.data.thumbnail.bg || undefined,
-        }}
-      />
-      :
-      <div class="aspect-5/3 w-full lg:w-150 lg:rounded-2xl bg-gray-100" />
+      {
+        project.data.thumbnail ? (
+          <Picture
+            loading="eager"
+            formats={["avif", "webp"]}
+            class:list={[
+              "aspect-5/3 w-full object-cover lg:w-150 lg:rounded-2xl",
+              !project.data.thumbnail.bg && "skeleton",
+            ]}
+            alt="プロジェクト画像"
+            src={project.data.thumbnail.src}
+            position={project.data.thumbnail.position}
+            width="1000"
+            height="600"
+            style={{
+              "object-position": project.data.thumbnail.position,
+              "object-fit": project.data.thumbnail.fit,
+              "background-color": project.data.thumbnail.bg || undefined,
+            }}
+          />
+        ) : (
+          <div class="aspect-5/3 w-full bg-gray-100 lg:w-150 lg:rounded-2xl" />
+        )
       }
       <div class="container mx-auto mt-8 px-4 lg:mx-0 lg:flex-1">
         <p class="flex items-center gap-1 text-gray-600">
