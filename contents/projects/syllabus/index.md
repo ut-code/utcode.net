@@ -6,7 +6,7 @@ app:
   platform: [web]
   domain: [tool] # バックエンドついたら app になる
 
-order: 3
+order: 2
 date: 2023-10-02
 kind: long-term
 status: stable
