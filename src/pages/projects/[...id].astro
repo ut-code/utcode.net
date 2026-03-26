@@ -22,12 +22,17 @@ const { Content } = await render(project);
 
 let iconSrc: string | undefined;
 if (project.data.status !== "dead") {
-  if (project.data.favicon) iconSrc = project.data.favicon.src;
-  if (!iconSrc && project.data.app.url) {
-    iconSrc = await fetchFavicon(project.data.app.url);
-  }
-  if (!iconSrc && project.data.social?.website) {
+  if(project.data.favicon === null) {
+    iconSrc = undefined;
+  }else if (project.data.favicon){
+    iconSrc = project.data.favicon.src;
+  } else {
+    if (!iconSrc && project.data.app.url) {
+      iconSrc = await fetchFavicon(project.data.app.url);
+    }
+    if (!iconSrc && project.data.social?.website) {
     iconSrc = await fetchFavicon(project.data.social.website);
+    }
   }
 }
 ---

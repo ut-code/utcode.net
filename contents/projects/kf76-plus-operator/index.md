@@ -11,6 +11,8 @@ kind: festival
 status: finished
 date: 2025-11-21
 
+# renderの起動待ちでfavicon自動取得は時間がかかる & favicon存在しない
+favicon: null
 thumbnail:
   src: ./thumbnail.png
 ---

@@ -30,7 +30,7 @@
 | `thumbnail.src`   | ✅   | string->path  | イメージファイルへの markdown からの相対パス。                                                        |
 | `thumbnail.fit`   |      | string?       | イメージのクロップ方法。 default = "cover"。                                                          |
 | `thumbnail.bg`    |      | string?       | イメージの背景色。ロード中と `crop` = "contain" のときの背景に使われています。                        |
-| `favicon`         |      | string->path? | 強制的に使わせる Favicon。指定しない場合は、アプリの URL から自動で引っ張ってきます。                 |
+| `favicon`         |      | string->path? \| null | 強制的に使わせる Favicon。指定しない場合は、アプリの URL から自動で引っ張ってきます。 `null` を指定した場合は、Faviconは存在しないものとみなしアプリのURLを自動でfetchしません。 |
 | `social.github`   |      | string->url?  | プロジェクトの GitHub 上での URL。                                                                    |
 | `social.website`  |      | string->url?  | プロジェクトのウェブサイトの URL。(`app.url` と別で広報用などの Website がある場合)                   |
 | `social.youtube`  |      | string->url?  | プロジェクトの YouTube 上での URL。                                                                   |
