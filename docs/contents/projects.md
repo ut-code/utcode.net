@@ -27,7 +27,7 @@
 | `status`          | ✅   | string                | プロジェクトの現状。詳細は `src/schema.ts` を参照。                                                                                                                              |
 | `members`         |      | string[]?             | プロジェクトのメンバー。まだメンバーページを作ってなくても問題ないです。                                                                                                         |
 | `tags`            |      | string[]?             | 使用されている技術。タグごとのフィルタリング機能等は提供していません。                                                                                                           |
-| `thumbnail.src`   | ✅   | string->path          | イメージファイルへの markdown からの相対パス。                                                                                                                                   |
+| `thumbnail.src`   |      | string->path          | イメージファイルへの markdown からの相対パス。                                                                                                                                   |
 | `thumbnail.fit`   |      | string?               | イメージのクロップ方法。 default = "cover"。                                                                                                                                     |
 | `thumbnail.bg`    |      | string?               | イメージの背景色。ロード中と `crop` = "contain" のときの背景に使われています。                                                                                                   |
 | `favicon`         |      | string->path? \| null | 強制的に使わせる Favicon。指定しない場合は、アプリの URL から自動で引っ張ってきます。 `null` を指定した場合は、Faviconは存在しないものとみなしアプリのURLを自動でfetchしません。 |
