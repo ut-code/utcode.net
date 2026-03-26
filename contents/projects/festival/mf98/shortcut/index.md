@@ -13,5 +13,7 @@ date: 2025-05-17
 
 thumbnail:
   src: ./thumbnail.png
+social:
+  github: https://github.com/ut-code/shortcut-game
 ---
 

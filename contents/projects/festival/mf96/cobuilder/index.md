@@ -17,4 +17,6 @@ date: 2023-05-13
 
 thumbnail:
   src: ./thumbnail.png
+social:
+  github: https://github.com/ut-code/cobuilder
 ---

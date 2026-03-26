@@ -17,5 +17,7 @@ date: 2024-05-18
 favicon: null
 thumbnail:
   src: ./thumbnail.png
+social:
+  github: https://github.com/ut-code/draw
 ---
 

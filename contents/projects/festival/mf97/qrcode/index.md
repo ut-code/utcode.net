@@ -15,5 +15,7 @@ date: 2024-05-18
 
 thumbnail:
   src: ./thumbnail.png
+social:
+  github: https://github.com/ut-code/qrcode
 ---
 

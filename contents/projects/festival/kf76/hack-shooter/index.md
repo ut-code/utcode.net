@@ -13,4 +13,6 @@ date: 2025-11-21
 
 thumbnail:
   src: ./thumbnail.png
+social:
+  github: https://github.com/ut-code/HackShooter
 ---

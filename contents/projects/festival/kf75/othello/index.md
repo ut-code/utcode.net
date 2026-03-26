@@ -16,4 +16,8 @@ date: 2024-11-22
 
 thumbnail:
   src: ./thumbnail.png
+social:
+  # https://github.com/ut-code/othello ?
+  # https://github.com/ut-code/ai-othello ?
+  github: https://github.com/ut-code/othello-revamp
 ---

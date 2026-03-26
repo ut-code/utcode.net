@@ -11,4 +11,6 @@ app:
 kind: festival
 status: finished
 date: 2022-11-21
+social:
+  github: https://github.com/ut-code/pwa-maker
 ---

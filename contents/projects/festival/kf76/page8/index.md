@@ -17,5 +17,7 @@ date: 2025-11-21
 
 thumbnail:
   src: ./thumbnail.jpeg
+social:
+  github: https://github.com/ut-code/page8
 ---
 

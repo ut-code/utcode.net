@@ -19,4 +19,6 @@ status: finished
 date: 2022-11-21
 thumbnail:
   src: ./thumbnail.jpg
+social:
+  github: https://github.com/ut-code/typing-game
 ---

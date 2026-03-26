@@ -15,4 +15,6 @@ date: 2023-05-13
 
 thumbnail:
   src: ./thumbnail.jpg
+social:
+  github: https://github.com/ut-code/first-web-game-maker
 ---

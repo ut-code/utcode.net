@@ -16,5 +16,7 @@ date: 2024-11-22
 
 thumbnail:
   src: ./thumbnail.png
+social:
+  github: https://github.com/ut-code/uma_project_next
 ---
 

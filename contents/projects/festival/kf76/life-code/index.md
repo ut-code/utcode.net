@@ -15,4 +15,6 @@ date: 2025-11-21
 
 thumbnail:
   src: ./thumbnail.gif
+social:
+  github: https://github.com/ut-code/life-code
 ---

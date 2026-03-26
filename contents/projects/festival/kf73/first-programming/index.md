@@ -14,5 +14,6 @@ kind: festival
 status: finished
 thumbnail:
   src: ./thumbnail.jpg
-
+social:
+  github: https://github.com/ut-code/school-festival
 ---
