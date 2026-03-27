@@ -10,7 +10,10 @@ export async function getProjects(kind: Kind | "all") {
       if (a_order !== b_order) {
         return a_order - b_order;
       }
-      return b.data.date.getTime() - a.data.date.getTime();
+      if (b.data.date.getTime() !== a.data.date.getTime()) {
+        return b.data.date.getTime() - a.data.date.getTime();
+      }
+      return (a.filePath ?? "") < (b.filePath ?? "") ? -1 : 1;
     });
 }
 
