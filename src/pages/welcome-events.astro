@@ -1,8 +1,7 @@
 ---
 import Link from "+/components/utils/Link.astro";
 import Header from "+/images/headers/welcome-events.jpg";
-import AprilTable from "+/images/welcome/welcome-events-calendar/april.png";
-import MayTable from "+/images/welcome/welcome-events-calendar/may.png";
+import CalendarTable from "+/images/welcome/welcome-events-calendar/calendar.jpg";
 import GlobalLayout from "+/layouts/GlobalLayout.astro";
 import StaticDocumentWrapper from "+/layouts/StaticDocumentWrapper.astro";
 import { Focus } from "+/schema";
@@ -28,6 +27,16 @@ import { Picture } from "astro:assets";
         興味がある方は、ぜひ気軽に参加してみてください！
       </p>
       <p>日時・場所の詳細は確定し次第追加します。</p>
+      <a
+        href="/welcome-events-calendar/calendar.jpg"
+        target="_blank"
+        aria-label="新しいページで開く"
+      >
+        <Picture src={CalendarTable} alt="新歓日程カレンダー" />
+      </a>
+      <div class="text-center text-xs text-gray-500">
+        画像クリックで全画面表示
+      </div>
     </section>
     <section>
       <h2>☘️ 各イベント詳細</h2>
