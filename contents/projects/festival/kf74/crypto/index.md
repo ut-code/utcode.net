@@ -1,0 +1,15 @@
+---
+app:
+  name: "暗号技術について学ぼう！"
+  url: https://kf74.utcode.net/crypto/
+  description: |
+    暗号技術は、現代社会において欠かせないものとなっています。
+    ここでは、エニグマという第二次世界大戦で実際に使われていた暗号のしくみと、
+    現代の暗号技術の基礎である RSA 暗号を学びます。
+  platform: [web]
+  domain: [learn]
+
+kind: festival
+status: finished
+date: 2023-11-24
+---
