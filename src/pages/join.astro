@@ -6,7 +6,7 @@ import StaticDocumentWrapper from "+/layouts/StaticDocumentWrapper.astro";
 import { Focus } from "+/schema";
 import { Icon } from "astro-icon/components";
 
-const shinkanJiki = false;
+const shinkanJiki = true;
 ---
 
 <GlobalLayout
@@ -45,12 +45,12 @@ const shinkanJiki = false;
       shinkanJiki ? (
         <>
           <p>
-            現在 ut.code(); では、 2025 年度夏新歓の受付を開始しています。
+            現在 ut.code(); では、 2026 年度春新歓の受付を開始しています。
             <br />
           </p>
           <p>
             <>
-              <a href="/welcome-events-2025-summer">夏新歓の詳細はこちら</a>
+              <a href="/welcome-events">春新歓の詳細はこちら</a>
               <br />
             </>
           </p>
@@ -67,7 +67,7 @@ const shinkanJiki = false;
       ) : (
         <>
           <p class="alert alert-error alert-outline">
-            ut.code(); の 2025 年度夏新歓の受付は、10/13 をもって終了しました。
+            ut.code(); の 2026 年度春新歓の受付は終了しました。
             またの機会をお待ちしております。
           </p>
         </>
