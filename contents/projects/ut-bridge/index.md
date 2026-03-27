@@ -6,7 +6,6 @@ app:
   platform: [web]
   domain: [app]
 
-order: 2
 date: 2025-04-01
 kind: long-term
 status: released

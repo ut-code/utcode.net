@@ -17,6 +17,7 @@ favicon: ./favicon.avif
 
 social:
   github: https://github.com/ut-code/coursemate
+  twitter: https://x.com/course_mate
 ---
 
 CourseMate は、同じ授業の友達をつくることができるアプリです。
