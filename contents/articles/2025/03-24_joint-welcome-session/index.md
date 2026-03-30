@@ -10,9 +10,9 @@ thumbnail:
   bg: "#A5FFD3"
 ---
 
-<div class="bg-amber-50 border-l-4 border-amber-400 p-3 mb-6 rounded">
+<div style="background-color: #fffbeb; border-left: 4px solid #fbbf24; padding: 0.75rem; margin-bottom: 1.5rem; border-radius: 0.25rem;">
   <strong>⚠️ 注意</strong><br/>
-  この記事は 2025 年度のものです。2026 年度の合同新歓は準備中です。（2026/03/16 追記）
+  この記事は 2025 年度のものです。<a href="/articles/2026/03-30_joint-welcome-session">2026 年度の合同新歓の詳細</a>をご覧ください。（2026/03/30 追記）
 </div>
 
 ## 📌 イベント概要
