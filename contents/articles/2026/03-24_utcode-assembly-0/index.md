@@ -4,7 +4,7 @@ date: 2026-4-3
 categories:
   - events
 thumbnail:
-  src: ./thumbnail.webp
+  src: ./thumbnail.jpg
   position: top
 author: 2025/shuya-tsukahara
 ---
