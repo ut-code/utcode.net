@@ -1,6 +1,6 @@
 ---
 title: ut.code(); 2026年3月総会を行いました
-date: 2026-4-3
+date: 2026-04-03
 categories:
   - events
 thumbnail:
