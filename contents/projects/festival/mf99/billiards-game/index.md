@@ -13,4 +13,6 @@ date: 2026-05-16
 
 thumbnail:
   src: ./thumbnail.png
+social:
+  github: https://github.com/ut-code/billiards-game
 ---
