@@ -1,0 +1,126 @@
+---
+import Section from "+/components/ActivityPage/Section.astro";
+import Summary from "+/components/ActivityPage/Summary.astro";
+import Title from "+/components/ActivityPage/Title.astro";
+import ArticleList from "+/components/common/ArticleList.astro";
+import ActionButton from "+/components/utils/ActionButton.astro";
+import Cover from "+/images/workshop-for-students/cover.webp";
+import Online from "+/images/workshop-for-students/online.webp";
+import Onsite from "+/images/workshop-for-students/onsite.webp";
+import Students from "+/images/workshop-for-students/students.webp";
+import GlobalLayout from "+/layouts/GlobalLayout.astro";
+import { getArticles } from "+/query";
+import { Focus } from "+/schema";
+import { Picture } from "astro:assets";
+
+// Add new entries here to display them under "開催実績".
+const pastWorkshopArticleIds = [
+  "2024/06-29_06-programming-course",
+  "2024/04-27_namiki-secondary-school-ssh-seminar",
+];
+const pastWorkshops = await getArticles({
+  where: (article) => pastWorkshopArticleIds.includes(article.id),
+});
+---
+
+<GlobalLayout
+  title="中高生のためのプログラミング講座"
+  description="ut.code(); が中学校・高等学校向けに開催しているプログラミング講座のご案内"
+  focus={Focus.none}
+  image={Cover}
+>
+  <Picture
+    formats={["avif", "webp"]}
+    src={Cover}
+    alt=""
+    width={1920}
+    height={72 * 4}
+    class="h-72 w-full object-cover md:h-96"
+  />
+  <Title icon="feather:book-open">中高生のためのプログラミング講座</Title>
+  <Summary>
+    <p>
+      ut.code();
+      は、「中高生のためのプログラミング講座」を、全国の中学校・高等学校向けに開催しています。
+    </p>
+    <p>
+      プログラミングの楽しさに触れていただくことを目的とし、独自に開発した教材を用いて、HTML・CSS・JavaScript
+      の基礎から、簡単な Web
+      アプリを自分の手で作り上げるところまでを丁寧に指導します。対面・オンラインのいずれの形式でも実施可能です。
+    </p>
+  </Summary>
+
+  <Section
+    title="講座の概要"
+    image={Students}
+    imageAlt="講座を受講する生徒の様子"
+    align-image="right"
+  >
+    <ul>
+      <li><strong>対象</strong>: 中学生・高等学校の生徒</li>
+      <li>
+        <strong>内容</strong>: HTML / CSS / JavaScript
+        の基礎から、おみくじやカウンターといった簡単な Web アプリ作成まで
+      </li>
+      <li><strong>形式</strong>: 対面 / オンライン</li>
+      <li>
+        <strong>日程</strong>:
+        単発の半日講座から、複数日にわたる連続講座まで対応可能
+      </li>
+      <li>
+        <strong>講師</strong>: 東京大学に在籍する ut.code();
+        メンバーが複数名で質問対応にあたります
+      </li>
+    </ul>
+  </Section>
+
+  <Section
+    title="独自教材 ut.code(); Starter"
+    image={Online}
+    imageAlt="オンライン講座の様子"
+    align-image="left"
+  >
+    <p>
+      講座では、ut.code(); が中高生・初学者のために独自に開発した教材
+      <a href="https://starter.utcode.net/" target="_blank" rel="noopener"
+        >ut.code(); Starter</a
+      >
+      を使用します。
+    </p>
+    <p>
+      大学生向けに長く運用してきた教材 ut.code(); Learn
+      をベースに、はじめてプログラミングに触れる中高生でも無理なく取り組めるよう内容を再構成しています。受講後も、生徒さんが各自のペースで学習を続けていただける構成です。
+    </p>
+  </Section>
+
+  <Section
+    title="日程・規模のご相談"
+    image={Onsite}
+    imageAlt="対面講座の様子"
+    align-image="right"
+  >
+    <p>
+      講座の日数や 1
+      回あたりのコマ数、対象学年などは、学校のご都合に合わせて調整いたします。
+    </p>
+    <p>
+      講座の内容は基本的に ut.code(); Starter
+      の教材に沿って進めますが、その他ご要望がございましたら、まずはお気軽にご相談ください。
+    </p>
+  </Section>
+
+  <section class="container mx-auto mt-16 px-8 lg:max-w-screen-lg">
+    <h2 class="text-4xl">開催実績</h2>
+    <ArticleList max-cols="2" articles={pastWorkshops} class="mt-8" />
+  </section>
+
+  <section class="container mx-auto mt-16 mb-24 px-8 lg:max-w-screen-lg">
+    <h2 class="text-4xl">お問い合わせ</h2>
+    <p class="mt-4">
+      講座のご依頼・ご相談は、以下のお問い合わせ先までご連絡ください。
+    </p>
+    <div class="mt-6">
+      <ActionButton to="/contact">お問い合わせはこちら</ActionButton>
+    </div>
+  </section>
+</GlobalLayout>
