@@ -25,7 +25,8 @@ jobs:
         with:
           bun-version: 1.3
       - run: bun install --frozen-lockfile
-      - uses: actions/cache@v4
+      - id: astro-cache
+        uses: actions/cache/restore@v4
         with:
           key: ${{ runner.os }}-astro-build
           path: |
@@ -34,6 +35,14 @@ jobs:
             node_modules/.astro/assets
           restore-keys: ${{ runner.os }}-astro-build
       - run: bun run build
+      - if: github.ref == 'refs/heads/main' && steps.astro-cache.outputs.cache-hit != 'true'
+        uses: actions/cache/save@v4
+        with:
+          key: ${{ runner.os }}-astro-build
+          path: |
+            .astro
+            dist
+            node_modules/.astro/assets
   dirs-small:
     name: All dirs must be small (<5MB)
     runs-on: ubuntu-latest
