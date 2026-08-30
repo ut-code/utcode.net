@@ -10,6 +10,9 @@ date: 2026-08-29
 kind: hackathon
 tags: [TypeScript, Chrome Extension]
 status: stable
+
+thumbnail:
+  src: ./thumbnail.webp
 ---
 
 検索する手間を減らそう！
