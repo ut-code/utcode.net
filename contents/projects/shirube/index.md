@@ -7,6 +7,7 @@ app:
   platform: [web]
   domain: [tool] 
 
+order: 2
 date: 2026-09-18
 kind: long-term
 status: released
