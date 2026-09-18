@@ -3,14 +3,14 @@ app:
   name: しるべ
   description: 進振り要件を見ながら、必要な情報だけで履修を組める
 
-  url: https://shirube.utcode.net/title
+  url: https://shirube.utcode.net/
   platform: [web]
-  domain: [tool] # バックエンドついたら app になる
+  domain: [tool] 
 
 date: 2026-09-18
 kind: long-term
 status: released
-tags: [JavaScript]
+tags: [JavaScript, TypeScript, React]
 
 thumbnail:
   src: ./thumbnail.png
@@ -35,7 +35,7 @@ social:
 
 ## Quick Start
 
-1. [しるべのページ](https://shirube.utcode.net/title)にアクセス
+1. [しるべのページ](https://shirube.utcode.net/)にアクセス
 2. 「はじめる」ボタンをクリック
 3. 所属(学部・学年・クラス)を選択し、「次へ」をクリック
 4. 必修科目の自動入力を確認し、「OK」をクリック
