@@ -1,10 +1,10 @@
 import type { Banner } from "+/schema.ts";
 
 const banner: Banner = {
-  shown: false,
+  shown: true,
   kind: "notify",
-  long: "春新歓を行っています",
-  short: "春新歓を行っています",
+  long: "秋新歓を行っています",
+  short: "秋新歓を行っています",
   link: "/join",
   linkText: "参加",
 };
