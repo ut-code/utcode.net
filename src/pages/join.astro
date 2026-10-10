@@ -1,12 +1,13 @@
 ---
-import ActionButton from "+/components/utils/ActionButton.astro";
+// import ActionButton from "+/components/utils/ActionButton.astro";
 import Header from "+/images/headers/join.jpg";
 import GlobalLayout from "+/layouts/GlobalLayout.astro";
 import StaticDocumentWrapper from "+/layouts/StaticDocumentWrapper.astro";
 import { Focus } from "+/schema";
-import { Icon } from "astro-icon/components";
 
-const shinkanJiki = false;
+// import { Icon } from "astro-icon/components";
+
+const shinkanJiki = true;
 ---
 
 <GlobalLayout
@@ -20,6 +21,8 @@ const shinkanJiki = false;
     fill="bg-pink-100"
     title="ut.code(); に参加する"
   >
+    <!--
+      秋新歓期は特別の新歓イベントを用意しているわけではないので、その案内用のリンクを非表示
     {
       shinkanJiki && (
         <p
@@ -35,6 +38,7 @@ const shinkanJiki = false;
         </p>
       )
     }
+    -->
     <p>
       ut.code();
       は、プログラミングはもちろん、ものづくりが好きな人、デザインに興味がある人、アイデアを形にしたい人など、幅広い人を歓迎しています！
@@ -45,15 +49,18 @@ const shinkanJiki = false;
       shinkanJiki ? (
         <>
           <p>
-            現在 ut.code(); では、 2026 年度春新歓の受付を開始しています。
+            現在 ut.code(); では、 2026 年度秋新歓の受付を開始しています。
             <br />
           </p>
+          {/*
+        秋新歓期は特別の新歓イベントを用意しているわけではないので、その案内用のリンクを非表示
           <p>
             <>
-              <a href="/welcome-events">春新歓の詳細はこちら</a>
+              <a href="/welcome-events">秋新歓の詳細はこちら</a>
               <br />
             </>
           </p>
+        */}
           <p>
             ut.code(); に興味のある方は、以下のリンクから Discord
             に参加してみてください。
@@ -67,7 +74,7 @@ const shinkanJiki = false;
       ) : (
         <>
           <p class="alert alert-error alert-outline">
-            ut.code(); の 2026 年度春新歓の受付は終了しました。
+            ut.code(); の 2026 年度秋新歓の受付は終了しました。
             またの機会をお待ちしております。
           </p>
         </>
@@ -82,11 +89,31 @@ const shinkanJiki = false;
         入部方法: ut.code(); への入部は、新歓期に部員登録フォーム (Discord
         で配布します) を提出した時点で完了となります。
       </li>
+      <!--下記リストは秋新歓用-->
+      <li>
+        各種イベント案内：
+        <dl>
+          <dt>駒場祭プロジェクト発足会</dt>
+          <dd>日時:10/17(土) 13:10~17:00</dd>
+          <dd>場所:学生会館214</dd>
+          <dt>10月総会</dt>
+          <dd>日時:10/31(土)</dd>
+          <dd>場所:未定</dd>
+          <li>
+            備考: <strong>Discord内でアナウンスを行う</strong
+            >予定ですので、詳細はDiscordの連絡からご確認ください。
+            ご不明な点等ございましたら、遠慮なくDiscord内でチャットで質問して頂いて大丈夫です。
+          </li>
+          <!--ここまで-->
+        </dl>
+      </li>
     </ul>
     <p>
       ut.code(); では、 部員同士の交流やプロジェクトの連絡は、主に Discord
       で行っています。新歓期は自由に参加可能ですので、興味がある場合はぜひ気軽に参加してみてください。
     </p>
+    <!--
+    // 秋新歓期は特別の新歓イベントを用意しているわけではないので、日程を非表示
     {
       shinkanJiki && (
         <>
@@ -96,6 +123,7 @@ const shinkanJiki = false;
         </>
       )
     }
+    -->
     <!-- 
     <h2>💬 コミュニティについて</h2>
     <p>また、 ut.code(); では Slack コミュニティを運営しています。</p>
