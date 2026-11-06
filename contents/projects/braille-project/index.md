@@ -9,6 +9,9 @@ date: 2026-11-06
 kind: long-term
 status: under-development
 tags: [TypeScript, React]
+
+thumbnail:
+  src: ./thumbnail.png
 ---
 
 点字プロジェクト（仮）では、点訳・録音図書制作をソフトウェアで効率化することを目標にしています。
